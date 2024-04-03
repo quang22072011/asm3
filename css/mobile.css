@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px) {
+  #sidebar {
+    width: 100%;
+  }
+  /* viet o day */
+  #about .about-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #job-info .job-detail,
+  #job-info .skill {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #nav-bar .container {
+    display: block;
+  }
+  #nav-bar a {
+    display: block;
+    border-left: none;
+    text-align: left;
+  }
+  .job-row {
+    display: block;
+  }
+  #job-info .job-item {
+    margin-top: 20px;
+  }
+  #certificate .cer-container {
+    display: block;
+  }
+  #project .pro-container {
+    display: block;
+  }
+}
